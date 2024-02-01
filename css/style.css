@@ -183,3 +183,37 @@ html {
     display: block;
     margin-bottom: 20px;
 }
+
+
+/* footer */
+.footer {
+    height: 125px;
+}
+
+.footer-icon {
+    margin-right: 25px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.footer-nav-list {
+    display: inline-flex;
+    
+}
+
+.footer-nav-item {
+    margin-right: 35px;
+}
+
+.footer-social-list {
+    display: inline-flex;
+}
+
+.footer-social-item {
+    margin-right: 35px;
+}
