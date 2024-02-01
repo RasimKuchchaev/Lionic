@@ -129,7 +129,7 @@ html {
     display: flex;
 }
 
-.section-clients-list-item {    
+.section-clients-list-item {       
     flex: 1 1 33.33%;
     border-top: 0.1px solid gainsboro;
     border-bottom: 0.1px solid gainsboro;
