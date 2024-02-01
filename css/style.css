@@ -115,3 +115,71 @@ html {
 .section-do-item:not(:last-child) {
     margin-right: 30px;
 }
+
+
+/*Client*/
+.section-clients {
+    padding-top: 90px;
+    padding-bottom: 100px;
+    border-top: 0.1px solid gainsboro;
+    border-bottom: 0.1px solid gainsboro;
+}
+
+.section-clients-list {
+    display: flex;
+}
+
+.section-clients-list-item {    
+    flex: 1 1 33.33%;
+    border-top: 0.1px solid gainsboro;
+    border-bottom: 0.1px solid gainsboro;
+    border-left: 0.1px solid gainsboro;
+    border-right: 0.1px solid gainsboro;
+}
+
+.section-clients-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.section-clients-user {
+    display: flex;
+    align-items: center;
+}
+
+.section-clients-avatar {
+    width: 60px;
+    height: 60px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+
+/* Contacts */
+.section-contacts {
+    padding-top: 85px;
+    padding-bottom: 95px;
+}
+
+.section-contacts-list {
+    display: flex;
+    margin-top: 40px;
+}
+
+.section-contacts-item {
+    flex: 1 1 33.33%;
+}
+
+.section-contacts-info {
+    max-width: 250px;
+}
+
+.section-contacts-icon {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.section-contacts-heading {
+    display: block;
+    margin-bottom: 20px;
+}
