@@ -70,6 +70,15 @@ html {
     padding: 20px 60px;
 }
 
+.section-heading {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 36px;
+    line-height: 1.3;
+    font-weight: 300;
+    color: #414141;
+}
+
 .text-center {
     text-align: center;
 }
@@ -131,7 +140,7 @@ html {
     margin-bottom: 30px;
     font-size: 40px;
     line-height: 52px;
-    font-weight: bold;
+    font-weight: 300;
     color: #1c1c1c;
 }
 
@@ -172,10 +181,14 @@ html {
 .section-do {
     padding-top: 140px;
     padding-bottom: 100px;
+    border-bottom: 0.1px solid gainsboro;
 }
 
 .section-description {
-    margin-top: 25px;
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 1.31;
+    color: #787878;
 }
 
 .section-do-list {
@@ -185,6 +198,12 @@ html {
 
 .section-do-item {
     flex: 1 1 25%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 30px;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
     /* ---for debugging---*/
     /* outline: 3px solid red; */
 }
@@ -193,13 +212,37 @@ html {
     margin-right: 30px;
 }
 
+.section-do-icon {
+    margin-bottom: 30px;
+}
+
+.section-do-item-heading {
+    margin-bottom: 18px;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 600;
+    color: #1c1c1c;
+}
+
+.section-do-item-description {
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+    text-align: center;
+    color: #787878;
+}
+
 
 /*Client*/
 .section-clients {
     padding-top: 90px;
     padding-bottom: 100px;
-    border-top: 0.1px solid gainsboro;
     border-bottom: 0.1px solid gainsboro;
+}
+
+.section-clients-heading {
+    margin-bottom: 45px;
 }
 
 .section-clients-list {
@@ -208,6 +251,10 @@ html {
 
 .section-clients-list-item {       
     flex: 1 1 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 35px 30px 35px;
     border-top: 0.1px solid gainsboro;
     border-bottom: 0.1px solid gainsboro;
     border-left: 0.1px solid gainsboro;
@@ -218,9 +265,34 @@ html {
     margin-right: 30px;
 }
 
+.section-clients-testimonial {
+    margin-top: 0;
+    margin-bottom: 35px;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #787878
+}
+
+
 .section-clients-user {
     display: flex;
     align-items: center;
+    padding-top: 28px;
+    border-top: 1px solid #c9c9c9;
+}
+
+.section-clients-username {
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #1c1c1c;
+}
+
+.section-clients-user-description {
+    font-size: 14px;
+    line-height: 25px;
+    color: #787878;
 }
 
 .section-clients-avatar {
