@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8.2 Теги для аудио и видео. Iframe. Нюансы использования</title>
+</head>
+<body>
+    <!--audio-->
+    <audio controls id="myaudio">
+        <source src="/media/Юрий Шатунов - Седая ночь.mp3" type="audio/mp3">
+        <p>Ваш браузер не поддерживает HTML5 аудио</p>
+    </audio>
+    <script>
+        var audio = document.getElementById("myaudio");
+        audio.volume = 0.2;
+      </script>
+    <hr>
+
+    <!--video-->
+    <video controls playsinline poster="/media/koshachij_vzglyad.jpg" width="300" height="300">
+        <source src="/media/Big fails.mp4" type="video/mp4">
+        <p>Ваш браузер не поддерживает HTML5 video</p>
+    </video>
+    <!--
+        <video controls src="/media/Big fails.mp4" width="300" height="300"></video>
+    -->
+    <hr>
+
+    <iframe width="600" height="600" src="https://www.youtube.com/embed/KRJpTNhersU" title="Распаковка i15 PRO MAX за 3000 рублей. Что?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>
