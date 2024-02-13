@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--
+    <base target="_blank">
+    <base href="base" target="_blank">
+    -->
+</head>
+<body>
+    <a href="#test">Test</a>
+    <!-- canvas teg -->
+    <canvas id="canvas" width="200" height="200">
+        <p>Ваш браузер не поддерживает рисование</p>    
+    </canvas>
+
+    <script>
+        let canvas = document.querySelector('#canvas');
+        let ctx = canvas.getContext('2d');
+
+        ctx.rect(50, 50, 100, 75);
+        ctx.stroke();
+    </script>
+    <hr>
+
+    <!-- address teg -->
+    <address>Республика Дагестан г.Махачкала Шамиля 5</address>
+    <hr>
+
+    <!-- dialog teg -->
+    <dialog open>
+        text teg dialog
+    </dialog>
+
+    <!-- details teg  (Спойлер)-->
+    <details>
+        <summary>Спойлер</summary>
+        <p>Hello World</p>
+        <p>Hello World</p>
+        <p>Hello World</p>
+    </details> 
+    <hr>
+
+    <!-- mark teg -->
+    Далеко-далеко за <mark>словесными горами</mark> в стране гласных и согласных живут рыбные тексты. 
+    <hr>
+
+    <!-- mark teg -->
+    <p id="test">Температура воды</p>
+    <meter value="0" max="100" low="10" high="60">Низкая</meter>
+    <meter value="30" max="100" low="10" high="60">Нормальная</meter>
+    <meter value="80" max="100" low="10" high="60">Горячая</meter>
+    <meter value="100" max="100">Кипяток</meter>
+    <hr>
+
+    <!-- sub sup teg -->
+    CH<sub>3</sub>CHO 2<sup>2</sup> = 4
+    <br>
+    m<sup>2</sup>
+    <hr>
+    
+    <!-- abbr teg -->
+    <abbr title="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, recusandae necessitatibus? Saepe fugit repellendus laborum aliquid, quibusdam illo odio pariatur, magnam, amet voluptatem laudantium quas in eum et vitae! Minus!">
+        lorem
+    </abbr>
+
+</body>
+</html>
