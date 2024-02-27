@@ -45,14 +45,6 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
-.container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 .btn {
     display: inline-block;
     padding: 15px 30px;
@@ -121,7 +113,7 @@ html {
 }
 
 /* Hero */
-.section-hero {
+.section-hero-background {
     background: url(../img/hero.jpg) right center no-repeat white;
     background-size: contain;
 }
@@ -192,24 +184,7 @@ html {
 }
 
 .section-do-list {
-    display: flex;
     margin-top: 50px;
-}
-
-.section-do-item {
-    flex: 1 1 25%;    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 60px 30px;
-    border: 1px solid #e4e4e4;
-    border-radius: 5px;
-    /* ---for debugging---*/
-    /* outline: 3px solid red; */
-}
-
-.section-do-item:not(:last-child) {
-    margin-right: 30px;
 }
 
 .section-do-icon {
@@ -245,12 +220,7 @@ html {
     margin-bottom: 45px;
 }
 
-.section-clients-list {
-    display: flex;
-}
-
-.section-clients-list-item {       
-    flex: 1 1 33.33%;
+.section-clients-list-item {   
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -259,10 +229,6 @@ html {
     border-bottom: 0.1px solid gainsboro;
     border-left: 0.1px solid gainsboro;
     border-right: 0.1px solid gainsboro;
-}
-
-.section-clients-list-item:not(:last-child) {
-    margin-right: 30px;
 }
 
 .section-clients-testimonial {
@@ -309,15 +275,6 @@ html {
     padding-top: 85px;
     padding-bottom: 95px;
     border-bottom: 1px solid #c9c9c9;
-}
-
-.section-contacts-list {
-    display: flex;
-    margin-top: 40px;
-}
-
-.section-contacts-item {
-    flex: 1 1 33.33%;
 }
 
 .section-contacts-info {
